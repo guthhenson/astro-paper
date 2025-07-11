@@ -13,7 +13,8 @@ import { SITE } from "./src/config";
 
 // https://astro.build/config
 export default defineConfig({
-  base: '/astro-paper/',
+  base: '/astro-paper', // 您的GitHub Pages仓库名称
+  trailingSlash: 'always', // 确保所有页面URL都以斜杠结尾，有助于静态托管
   site: SITE.website,
   integrations: [
     sitemap({
