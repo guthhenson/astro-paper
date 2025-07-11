@@ -13,7 +13,7 @@ import { SITE } from "./src/config";
 
 // https://astro.build/config
 export default defineConfig({
-  base: '/astro-paper/',
+  base: '/astro-paper',
   trailingSlash: "always",
   site: SITE.website,
   integrations: [
