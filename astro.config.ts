@@ -13,6 +13,7 @@ import { SITE } from "./src/config";
 
 // https://astro.build/config
 export default defineConfig({
+  base: '/astro-paper/',
   site: SITE.website,
   integrations: [
     sitemap({
