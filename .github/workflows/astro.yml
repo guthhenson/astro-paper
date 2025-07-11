@@ -64,11 +64,7 @@ jobs:
         run: pnpm run lint
 
       - name: "📝 Checking code format"
-        run: |
-          pnpm prettier --write astro.config.ts
-          pnpm run format:check
-          echo "📄 Contents of astro.config.ts after formatting:"
-          cat astro.config.ts
+        run: pnpm run format:check
 
       - name: "🚀 Build the project"
         run: pnpm run build
