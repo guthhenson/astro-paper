@@ -67,6 +67,8 @@ jobs:
         run: |
           pnpm prettier --write astro.config.ts
           pnpm run format:check
+          echo "📄 Contents of astro.config.ts after formatting:"
+          cat astro.config.ts
 
       - name: "🚀 Build the project"
         run: pnpm run build
