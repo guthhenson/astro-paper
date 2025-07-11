@@ -13,7 +13,7 @@ import { SITE } from "./src/config";
 
 // https://astro.build/config
 export default defineConfig({
-  base: 'astro-paper',
+  base: '/astro-paper',
   site: 'https://guthhenson.github.io',
   integrations: [
     sitemap({
