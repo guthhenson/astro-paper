@@ -13,8 +13,8 @@ import { SITE } from "./src/config";
 
 // https://astro.build/config
 export default defineConfig({
-  base: '/astro-paper',
   site: 'https://guthhenson.github.io',
+  base: '/astro-paper/',
   integrations: [
     sitemap({
       filter: page => SITE.showArchives || !page.endsWith("/archives"),
