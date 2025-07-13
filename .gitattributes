@@ -1,0 +1,7 @@
+src/data/**                    merge=ours
+src/assets/**                  merge=ours
+src/layouts/PostDetails.astro  merge=ours
+src/config.ts                  merge=ours
+src/constants.ts               merge=ours
+public/**                      merge=ours
+.github/workflows/astro.yml    merge=ours
